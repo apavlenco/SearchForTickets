@@ -1,0 +1,67 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SearchFieldStyle">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:background">@drawable/search_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_ocean</item>
+        <item name="fontPath">fonts/avenir_heavy.ttf</item>
+    </style>
+
+    <style name="SearchButtonStyle">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontPath">fonts/avenir_heavy.ttf</item>
+    </style>
+
+    <style name="SettingFieldStyle">
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:background">@drawable/search_bg</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AvenirMedium16Gunmetal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_gunmetal</item>
+        <item name="fontPath">fonts/avenir_medium.ttf</item>
+    </style>
+
+    <style name="AvenirHeavy12Gunmetal">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_gunmetal</item>
+        <item name="fontPath">fonts/avenir_heavy.ttf</item>
+    </style>
+
+
+</resources>

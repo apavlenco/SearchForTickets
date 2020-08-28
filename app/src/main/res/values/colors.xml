@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_cloudy_blue">#cbd5df</color>
+    <color name="color_pale_grey">#e6edf4</color>
+    <color name="color_teal_blue_two">#009fb5</color>
+    <color name="color_ocean">#00718c</color>
+    <color name="grey_opacity_70">#B35E6A75</color>
+    <color name="color_gunmetal">#4a5561</color>
+</resources>

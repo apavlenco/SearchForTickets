@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TechnicalTask</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_settings">Настройки</string>
+
+    <string name="country_list_name">countries_list_ru</string>
+    <string name="currency">Валюта</string>
+    <string name="region">Страна или регион</string>
+
+    <string name="place_from">Откуда</string>
+    <string name="place_to">Куда</string>
+    <string name="select_date">Выберите дату</string>
+
+
+    <string name="error">Ошибка</string>
+    <string name="default_error_message">Произошла ошибка при загрузке данных!</string>
+
+</resources>

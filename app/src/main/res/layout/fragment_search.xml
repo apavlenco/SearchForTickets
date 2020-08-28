@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_pale_grey"
+    tools:context=".ui.search.SearchFragment">
+
+    <EditText
+        android:id="@+id/from"
+        style="@style/SearchFieldStyle"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_flight_takeoff_black_24dp"
+        android:focusableInTouchMode="false"
+        android:hint="@string/place_from"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/to"
+        style="@style/SearchFieldStyle"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_flight_land_black_24dp"
+        android:focusableInTouchMode="false"
+        android:hint="@string/place_to"
+        app:layout_constraintTop_toBottomOf="@id/from" />
+
+    <EditText
+        android:id="@+id/date"
+        style="@style/SearchFieldStyle"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_event_black_24dp"
+        android:focusableInTouchMode="false"
+        android:hint="@string/select_date"
+        app:layout_constraintTop_toBottomOf="@id/to" />
+
+    <Button
+        android:id="@+id/search_button"
+        style="@style/SearchButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/title_search"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/date" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tickets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_button" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorAccent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/error_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

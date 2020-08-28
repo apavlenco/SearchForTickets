@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TechnicalTask</string>
+    <string name="title_search">Cautare</string>
+    <string name="title_settings">Setari</string>
+    <string name="country_list_name">countries_list_ro</string>
+    <string name="currency">Moneda</string>
+    <string name="region">Tara sau regiunea</string>
+
+    <string name="place_from">Plecare din</string>
+    <string name="place_to">Zbor catre</string>
+    <string name="select_date">Selecteaza data</string>
+
+    <string name="error">Eroare</string>
+    <string name="default_error_message">A apărut o eroare la încărcarea datelor!</string>
+</resources>
